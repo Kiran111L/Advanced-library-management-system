@@ -1,33 +1,52 @@
----------------->           IIIT-Kalyani Library Management          <-------------------
+# 📚 Advanced Library Management System
 
-A Flask-based Library Management System developed for IIIT Kalyani, designed to manage books, members, and employees efficiently.
-The system provides features like book issue/return tracking, authentication, and real-time status dashboards, using MySQL as the backend database and HTML/CSS for the frontend interface.
+## 🚀 Overview
 
+A full-stack web application designed to manage library operations including book tracking, user management, and fine calculation. This system extends beyond basic CRUD by implementing real-world workflows such as role-based access and overdue handling.
 
+## 🔥 Key Features
 
-Tech Stack
+* 🔐 User Authentication (Admin, Employee, Member)
+* 📖 Book Management (Add, Update, Delete, Search)
+* 🔄 Issue & Return Tracking
+* 💰 Fine Calculation for Overdue Books
+* 📊 Dashboard for availability and due tracking
+* 🧩 Role-based access control
 
-Frontend: HTML, CSS
-Backend: Flask (Python)
-Database: MySQL
-IDE / Tools: VS Code, GitHub
+## 🧠 Highlights
 
+* Implements real-world business logic (fines, roles)
+* Follows structured backend design
+* Demonstrates full-stack development capabilities
 
-Key Features
+## 🛠 Tech Stack
 
-User authentication (Admin, Employee, Member)
-Add, update, and delete books and member records
-Track issued and returned books
-Dashboard view for due dates and availability
-Secure MySQL database integration
+* **Backend:** Flask (Python)
+* **Database:** MySQL
+* **Frontend:** HTML, CSS
+* **Templating:** Jinja2
 
-Architecture
+## 📂 Project Structure
 
-Follows a Three-Tier Architecture:
-Presentation Layer (HTML/CSS) → Application Layer (Flask) → Data Layer (MySQL)
+```bash
+app.py
+config.py
+templates/
+static/
+requirements.txt
+```
 
-CASE Tools Used
+## ⚡ How to Run
 
-Visual Studio Code for coding and debugging
-MySQL for database management
-GitHub for version control and documentation
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+## 📸 Screenshots
+
+(Add login page, dashboard, book management UI)
+
+## 📈 Evolution
+
+This project builds upon a basic CRUD-based library system and expands it into a more complete and realistic application with role-based workflows and fine handling.
